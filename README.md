@@ -169,7 +169,7 @@ Array index starts from 0.
     ```java
     arrayName[n - 1];
     ```
-* To find the length of an array use ```array_name.length```. There are no braces infront of length. It is not ```length()```.
+* To find the length of an array use ```array_name.length```. There are no trailing parenthesis for length. It is not ```length()```.
 ### Foreach (or enhanced for loop)
 Foreach is a special type of for loop to access elements of an array. Using foreach loop you can access the complete array sequentially without using the index of an array.
 * E.g.
