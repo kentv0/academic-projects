@@ -272,11 +272,11 @@ Java provides a rich set of operators environment. Java operators can be divided
 ### Logical Operators
 * The following table shows the three logical operators supported by Java
 
-    | Operator     | Description | Example (a=1, b=0)|
-    |:------------:|:------------|:------------------|
-    | ```&&```     | Logical AND | (a && b) is false |
-    | &#124;&#124; | Logical OR  | (a || b) is true  |
-    | ```!```      | Logical NOT | (!a) is false     |
+    | Operator     | Description | Example (a = 1, b = 0)  |
+    |:------------:|:------------|:------------------------|
+    | ```&&```     | Logical AND | ```(a && b)``` is false |
+    | &#124;&#124; | Logical OR  | ```(a || b)``` is true  |
+    | ```!```      | Logical NOT | ```(!a)``` is false     |
 ### Bitwise Operators
 * Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
 * The following table shows all bitwise operators supported by Java
@@ -296,9 +296,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     | 0       | 1       | 0           | 1           | 1           |
     | 1       | 0       | 0           | 1           | 1           |
     | 1       | 1       | 1           | 1           | 0           |
-* The bitwise shift operators shifts the bit value.
-* The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted.
-* Both operands have the same precedence.
+* The bitwise shift operators shifts the bit value. The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted. Both operands have the same precedence.
 * E.g.
     ```java
     a = 0000100
