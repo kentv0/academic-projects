@@ -296,8 +296,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     | 0       | 1       | 0           | 1           | 1           |
     | 1       | 0       | 0           | 1           | 1           |
     | 1       | 1       | 1           | 1           | 0           |
-* The bitwise shift operators shifts the bit value. The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted. Both operands have the same precedence.
-* E.g.
+* The bitwise shift operators shifts the bit value. The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted. Both operands have the same precedence. E.g.
     ```java
     a = 0000100
     b = 2
