@@ -275,7 +275,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     | Operator     | Description | Example (a = 1, b = 0)  |
     |:------------:|:------------|:------------------------|
     | ```&&```     | Logical AND | ```(a && b)``` is false |
-    | &#124;&#124; | Logical OR  | ```(a || b)``` is true  |
+    | &#124;&#124; | Logical OR  | (a || b) is true        |
     | ```!```      | Logical NOT | ```(!a)``` is false     |
 ### Bitwise Operators
 * Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
