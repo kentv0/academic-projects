@@ -157,11 +157,11 @@ An array is a collection of similar data types. Array is a container object that
 The ```new``` operator is used to initialize an array.
 * E.g.
     ```java
-    int[] arr = new int[10];    // This creates an empty array named "arr" of integer type whose size is 10
+    int[] arr = new int[5];    // This creates an empty array named "arr" of integer type whose size is 5
     ```
     OR
     ```java
-    int[] arr = {10,20,30,40,50};  // This creates an array named "arr" whose elements are given
+    int[] arr = {1, 2, 3, 4, 5};  // This creates an array named "arr" whose elements are given
     ```
 ### Accessing
 Array index starts from 0.
