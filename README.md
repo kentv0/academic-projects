@@ -259,6 +259,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     | ```++``` | Increment value by one             |
     | ```--``` | Decrement value by one             |
 ### Relation Operators
+* The following table shows all relation operators supported by Java
 
     | Operator | Description                                                     |
     |:--------:|:----------------------------------------------------------------|
@@ -269,6 +270,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     | ```>=``` | Check if left operand is greater than or equal to right operand |
     | ```<=``` | Check if left operand is less than or equal to right operand    |
 ### Logical Operators
+* The following table shows the three logical operators supported by Java
 
     | Operator | Description | Example (a=1, b=0)|
     |:--------:|:------------|:------------------|
@@ -276,7 +278,8 @@ Java provides a rich set of operators environment. Java operators can be divided
     | ```||``` | Logical OR  | (a || b) is true  |
     | ```!```  | Logical NOT | (!a) is false     |
 ### Bitwise Operators
-Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
+* Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
+* The following table shows all bitwise operators supported by Java
     | Operator | Description          |
     |:--------:|:---------------------|
     | ```&```  | Bitwise AND          |
@@ -284,7 +287,8 @@ Bitwise operators can be applied to the integer types ```long```, ```int```, ```
     | ```^```  | Bitwise exclusive OR |
     | ```<<``` | Left shift           |
     | ```>>``` | Right shift          |
-Truth Table for bitwise operators: ```&```, ```|```, and ```^```
+* Truth Table for bitwise operators: ```&```, ```|```, and ```^```
+
     | ```a``` | ```b``` | ```a & b``` | ```a | b``` | ```a ^ b``` |
     |:--------|:--------|-------------|-------------|-------------|
     | 0       | 0       | 0           | 0           | 0           |
@@ -302,7 +306,7 @@ Truth Table for bitwise operators: ```&```, ```|```, and ```^```
     a >> b = 0000001
     ```
 ### Assignment Operators
-
+* The following table shows all assignment operators supported by Java
     | Operator | Description                                                              | Example                              |
     |:--------:|:-------------------------------------------------------------------------|:-------------------------------------|
     | ```=```  | Assign right operand to left operand                                     | ```a = b```                          |
@@ -319,10 +323,10 @@ Also known as the ternary operator and used to evaluate ```Boolean``` expression
     ```
     If the condition of ```expression1``` is true? Then evaluate ```expression2``` : Otherwise evaluate ```expression3```
 ### ```instanceOf``` Operator
-Used for object reference variables. The operator checks whether the object is of a particular type (class type or interface type)
+* Used for object reference variables. The operator checks whether the object is of a particular type (class type or interface type)
 
 ### Misc Operators
-There are few other operators supported by the Java programming language.
+* There are few other operators supported by the Java programming language.
 
 Object Oriented
 ------
