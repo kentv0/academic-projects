@@ -9,10 +9,19 @@ Table of Contents
 History of Java
 ------
 
-Object Oriented
+Basic Java
 ------
 
-### Styles of Programming Languages
-* Unstructured
-* Structured
-* Object-Oriented
+Object Oriented
+------
+* ### Styles of Programming Languages
+    * Unstructured
+    * Structured
+    * Object-Oriented
+* ### Objects and Classes
+* ### Method Overloading
+
+Advanced Topics
+------
+
+
