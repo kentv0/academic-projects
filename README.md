@@ -137,6 +137,7 @@ Arrays
 ------
 An array is a collection of similar data types. Array is a container object that hold values of homogeneous type. It is also known as a static data structure because the size of an array must be specified at the time of its declaration. An array can be either primitive or reference type. It gets memory in heap area. Index of array starts from zero to ```size - 1```.
 ### Declaration
+* Both are valid syntax for array declaration, but the first is more readable.
     ```java
     datatype[] identifier;
     ```
@@ -144,7 +145,6 @@ An array is a collection of similar data types. Array is a container object that
     ```java
     datatype identifier[];
     ```
-    * Both are valid syntax for array declaration, but the former is more readable.
     * E.g.
         ```java
         int[] arr;
@@ -192,13 +192,14 @@ Multi-Dimensional Arrays
 ------
 A multi-dimensional array is very much similar to a single dimensional array. It can have multiple rows and multiple columns unlike single dimensional array, which can have only one full row or one full column.
 ### Declaration
-```java
-datatype[][] identifier;
-```
-OR
-```java
-datatype identifier[][];
-```
+* Both are valid syntax for multi-dimensional array declaration, but the first is more readable.
+    ```java
+    datatype[][] identifier;
+    ```
+    OR
+    ```java
+    datatype identifier[][];
+    ```
 ### Initialization
 The ```new``` operator is used to initialize a Multi-Dimensional array.
 * E.g.
@@ -225,10 +226,16 @@ For both row and column, the index begins from 0.
     ```tcsh
     8
     ```
-
 Jagged Arrays
 ------
-
+Jagged means to have an uneven edge or surface. In java, a Jagged Array means to have a multi-dimensional array with uneven size of rows in it.
+* E.g.
+    ```java
+    int[][] arr = new int[3][];
+    arr[0] = new int[3];
+    arr[1] = new int[4];
+    arr[2] = new int[5];
+    ```
 Operators
 ------
 
