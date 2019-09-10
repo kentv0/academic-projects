@@ -133,6 +133,105 @@ Local Variables are declared in a method, constructor, or block. Local Variables
         return price;
     }
     ```
+Arrays
+------
+An array is a collection of similar data types. Array is a container object that hold values of homogeneous type. It is also known as a static data structure because the size of an array must be specified at the time of its declaration. An array can be either primitive or reference type. It gets memory in heap area. Index of array starts from zero to ```size - 1```.
+### Declaration
+    ```java
+    datatype[] identifier;
+    ```
+    OR
+    ```java
+    datatype identifier[];
+    ```
+    * Both are valid syntax for array declaration, but the former is more readable.
+    * E.g.
+        ```java
+        int[] arr;
+        char[] arr;
+        short[] arr;
+        long[] arr;
+        int[][] arr;   // Two dimensional array
+        ```
+### Initialization
+The ```new``` operator is used to initialize an array.
+* E.g.
+    ```java
+    int[] arr = new int[10];    // This creates an empty array named "arr" of integer type whose size is 10
+    ```
+    OR
+    ```java
+    int[] arr = {10,20,30,40,50};  // This creates an array named "arr" whose elements are given
+    ```
+### Accessing
+Array index starts from 0.
+* To access ```nth``` element of an array:
+    ```java
+    arrayName[n - 1];
+    ```
+* To find the length of an array use ```array_name.length```. There are no braces infront of length. It is not ```length()```.
+### Foreach (or enhanced for loop)
+Foreach is a special type of for loop to access elements of an array. Using foreach loop you can access the complete array sequentially without using the index of an array.
+* E.g.
+    ```java
+    ...
+        int[] arr = {1, 2, 3, 4};
+        for(int x : arr) {
+            System.out.println(x);
+        }
+    }
+    ```
+    Output:
+    ```tcsh
+    1
+    2
+    3
+    4
+    ```
+Multi-Dimensional Arrays
+------
+A multi-dimensional array is very much similar to a single dimensional array. It can have multiple rows and multiple columns unlike single dimensional array, which can have only one full row or one full column.
+### Declaration
+```java
+datatype[][] identifier;
+```
+OR
+```java
+datatype identifier[][];
+```
+### Initialization
+The ```new``` operator is used to initialize a Multi-Dimensional array.
+* E.g.
+    ```java
+    int[][] arr = new int[5][5];    // 5 x 5 is the size of the multi-dimensional array
+    ```
+    OR
+    ```java
+    // 3 x 5 is the size of the multi-dimensional array
+    int[][] arr = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}};
+    ```
+### Accessing
+For both row and column, the index begins from 0.
+* To access ```mth``` row, ```nth``` column element of a multi-dimensional array:
+    ```java
+    arrayName[m - 1][n - 1]
+    ```
+* E.g.
+    ```java
+    int[][] arr = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}};
+    System.out.println("Element at (2,3):" + arr[1][2]);
+    ```
+    Output:
+    ```tcsh
+    8
+    ```
+
+Jagged Arrays
+------
+
+Operators
+------
+
 Object Oriented
 ------
 * ### Styles of Programming Languages
