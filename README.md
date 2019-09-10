@@ -145,13 +145,13 @@ An array is a collection of similar data types. Array is a container object that
     ```java
     datatype identifier[];
     ```
-    * E.g.
-        ```java
-        int[] arr;
-        char[] arr;
-        short[] arr;
-        long[] arr;
-        int[][] arr;   // Two dimensional array
+* E.g.
+    ```java
+    int[] arr;
+    char[] arr;
+    short[] arr;
+    long[] arr;
+    int[][] arr;   // Two dimensional array
         ```
 ### Initialization
 The ```new``` operator is used to initialize an array.
