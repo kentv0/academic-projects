@@ -272,25 +272,26 @@ Java provides a rich set of operators environment. Java operators can be divided
 ### Logical Operators
 * The following table shows the three logical operators supported by Java
 
-    | Operator | Description | Example (a=1, b=0)|
-    |:--------:|:------------|:------------------|
-    | ```&&``` | Logical AND | (a && b) is false |
-    | ```||``` | Logical OR  | (a || b) is true  |
-    | ```!```  | Logical NOT | (!a) is false     |
+    | Operator     | Description | Example (a=1, b=0)|
+    |:------------:|:------------|:------------------|
+    | ```&&```     | Logical AND | (a && b) is false |
+    | &#124;&#124; | Logical OR  | (a || b) is true  |
+    | ```!```      | Logical NOT | (!a) is false     |
 ### Bitwise Operators
 * Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
 * The following table shows all bitwise operators supported by Java
+
     | Operator | Description          |
     |:--------:|:---------------------|
     | ```&```  | Bitwise AND          |
-    | ```|```  | Bitwise OR           |
+    | &#124;   | Bitwise OR           |
     | ```^```  | Bitwise exclusive OR |
     | ```<<``` | Left shift           |
     | ```>>``` | Right shift          |
-* Truth Table for bitwise operators: ```&```, ```|```, and ```^```
+* Truth Table for ```&```, ```|```, and ```^``` bitwise operators
 
-    | ```a``` | ```b``` | ```a & b``` | ```a | b``` | ```a ^ b``` |
-    |:--------|:--------|-------------|-------------|-------------|
+    | ```a``` | ```b``` | ```a & b``` | a &#124; b  | ```a ^ b``` |
+    |:--------|:--------|:------------|:------------|:------------|
     | 0       | 0       | 0           | 0           | 0           |
     | 0       | 1       | 0           | 1           | 1           |
     | 1       | 0       | 0           | 1           | 1           |
@@ -299,7 +300,7 @@ Java provides a rich set of operators environment. Java operators can be divided
 * The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted.
 * Both operands have the same precedence.
 * E.g.
-    ```tcsh
+    ```java
     a = 0000100
     b = 2
     a << b = 0010000
@@ -307,6 +308,7 @@ Java provides a rich set of operators environment. Java operators can be divided
     ```
 ### Assignment Operators
 * The following table shows all assignment operators supported by Java
+
     | Operator | Description                                                              | Example                              |
     |:--------:|:-------------------------------------------------------------------------|:-------------------------------------|
     | ```=```  | Assign right operand to left operand                                     | ```a = b```                          |
