@@ -238,6 +238,32 @@ Jagged means to have an uneven edge or surface. In java, a Jagged Array means to
     ```
 Operators
 ------
+Java provides a rich set of operators environment. Java operators can be divided into following categories:
+* Arithmetic Operators
+* Relation Operators
+* Logical Operators
+* Bitwise Operators
+* Assignment Operators
+* Conditional Operators
+* Misc Operators
+### Arithmetic Operators
+* Arithmetic operators are used in mathematical expression in the same way that are used in algebra.
+
+    | Operator      | Description                        |
+    |:-------------:|:-----------------------------------|
+    | ```+```       | adds two operands                  |
+    | ```-```       | subtract second operand from first |
+    | ```*```       | multiply two operand               |
+    | ```/```       | divide numerator by denominator    |
+    | ```%```       | remainder of division              |
+    | ```++```      | increment value by one             |
+    | ```--```      | decrement value by one             |
+### Relation Operators
+### Logical Operators
+### Bitwise Operators
+### Assignment Operators
+### Conditional Operators
+### Misc Operators
 
 Object Oriented
 ------
