@@ -249,21 +249,80 @@ Java provides a rich set of operators environment. Java operators can be divided
 ### Arithmetic Operators
 * Arithmetic operators are used in mathematical expression in the same way that are used in algebra.
 
-    | Operator      | Description                        |
-    |:-------------:|:-----------------------------------|
-    | ```+```       | adds two operands                  |
-    | ```-```       | subtract second operand from first |
-    | ```*```       | multiply two operand               |
-    | ```/```       | divide numerator by denominator    |
-    | ```%```       | remainder of division              |
-    | ```++```      | increment value by one             |
-    | ```--```      | decrement value by one             |
+    | Operator | Description                        |
+    |:--------:|:-----------------------------------|
+    | ```+```  | Adds two operands                  |
+    | ```-```  | Subtract second operand from first |
+    | ```*```  | Multiply two operand               |
+    | ```/```  | Divide numerator by denominator    |
+    | ```%```  | Remainder of division              |
+    | ```++``` | Increment value by one             |
+    | ```--``` | Decrement value by one             |
 ### Relation Operators
+
+    | Operator | Description                                                     |
+    |:--------:|:----------------------------------------------------------------|
+    | ```==``` | Check if two operand are equal                                  |
+    | ```!=``` | Check if two operand are not equal                              |
+    | ```>```  | Check if left operand is greater than right operand             |
+    | ```<```  | Check if left operand is less than right operand                |
+    | ```>=``` | Check if left operand is greater than or equal to right operand |
+    | ```<=``` | Check if left operand is less than or equal to right operand    |
 ### Logical Operators
+
+    | Operator | Description | Example (a=1, b=0)|
+    |:--------:|:------------|:------------------|
+    | ```&&``` | Logical AND | (a && b) is false |
+    | ```||``` | Logical OR  | (a || b) is true  |
+    | ```!```  | Logical NOT | (!a) is false     |
 ### Bitwise Operators
+Bitwise operators can be applied to the integer types ```long```, ```int```, ```short```, ```char``` and ```byte```
+    | Operator | Description          |
+    |:--------:|:---------------------|
+    | ```&```  | Bitwise AND          |
+    | ```|```  | Bitwise OR           |
+    | ```^```  | Bitwise exclusive OR |
+    | ```<<``` | Left shift           |
+    | ```>>``` | Right shift          |
+Truth Table for bitwise operators: ```&```, ```|```, and ```^```
+    | ```a``` | ```b``` | ```a & b``` | ```a | b``` | ```a ^ b``` |
+    |:--------|:--------|-------------|-------------|-------------|
+    | 0       | 0       | 0           | 0           | 0           |
+    | 0       | 1       | 0           | 1           | 1           |
+    | 1       | 0       | 0           | 1           | 1           |
+    | 1       | 1       | 1           | 1           | 0           |
+* The bitwise shift operators shifts the bit value.
+* The left operand specifies the value to be shifted and the right operand specifies the number of positions that the bits in the value are to be shifted.
+* Both operands have the same precedence.
+* E.g.
+    ```tcsh
+    a = 0000100
+    b = 2
+    a << b = 0010000
+    a >> b = 0000001
+    ```
 ### Assignment Operators
+
+    | Operator | Description                                                              | Example                              |
+    |:--------:|:-------------------------------------------------------------------------|:-------------------------------------|
+    | ```=```  | Assign right operand to left operand                                     | ```a = b```                          |
+    | ```+=``` | Assign left operand to the sum of left operand and right operand         | ```a += b``` same as ```a = a + b``` |
+    | ```-=``` | Assign left operand to the difference of right operand from left operand | ```a -= b``` same as ```a = b - a``` |
+    | ```*=``` | Assign left operand to the product of left operand with right operand    | ```a *= b``` same as ```a = a * b``` |
+    | ```/=``` | Assign left operand to the quotient of left operand with right operand   | ```a /= b``` same as ```a = a / b``` |
+    | ```%=``` | Assign left operand to the modulo of left operand with right operand     | ```a %= b``` same as ```a = a % b``` |
 ### Conditional Operators
+Also known as the ternary operator and used to evaluate ```Boolean``` expression
+* E.g.
+    ```java
+    expression1 ? expression2 : expression3
+    ```
+    If the condition of ```expression1``` is true? Then evaluate ```expression2``` : Otherwise evaluate ```expression3```
+### ```instanceOf``` Operator
+Used for object reference variables. The operator checks whether the object is of a particular type (class type or interface type)
+
 ### Misc Operators
+There are few other operators supported by the Java programming language.
 
 Object Oriented
 ------
