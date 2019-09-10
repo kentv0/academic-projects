@@ -13,9 +13,7 @@ Basic Java
 ======
 Data Types
 ------
-Data types specify size and the type of values that can be stored in an identifier
-
-Java classifies data types into two categories:
+Data types specify size and the type of values that can be stored in an identifier. Java classifies data types into two categories:
 1. Primitive Data Type
 2. Non-Primitive Data Type
 ### 1. Primitive Data Type
@@ -51,8 +49,47 @@ Identifiers
 
 Type Casting
 ------
-* Assigning a value of one type to a variable of another type is known as Type Casting.
-
+* Type Casting is assigning a value of one type to a variable of another type and are classified into two types:
+### 1. Widening Casting (Implicit)
+```byte``` -> ```short``` -> ```int``` -> ```long``` -> ```float``` -> ```double```
+* Widening (or Automatic type conversion) take place when...
+    * the two types are compatible
+    * the target type is larger than the source type
+* E.g.
+    ```java
+    int i = 100;
+    long l = i;
+    float f = l;
+    
+    System.out.println("Int value: " + i);
+    System.out.println("Long value: " + l);
+    System.out.println("Float value: " + f);
+    ```
+    Output:
+    ```tcsh
+    Int value: 100
+    Long value: 100
+    Float value: 100.0
+    ```
+### 2. Narrowing Casting (Explicitly done)
+```double``` -> ```float``` -> ```long``` -> ```int``` -> ```short``` -> ```byte```
+* Narrowing (or Explicit type conversion) when you are assigning a larger type value to a variable of smaller type, then you need to perform explicit type casting.
+* E.g.
+    ```java
+    double d = 100.04;
+    long l = (long)d;
+    int i = (int)l;
+    
+    System.out.println("Double value: " + d);
+    System.out.println("Long value: " + l);
+    System.out.println("Int value: " + i);
+    ```
+    Output:
+    ```tcsh
+    Double value: 100.04
+    Long value: 100
+    Int value: 100
+    ```
 Object Oriented
 ------
 * ### Styles of Programming Languages
