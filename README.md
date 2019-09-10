@@ -152,7 +152,7 @@ An array is a collection of similar data types. Array is a container object that
     short[] arr;
     long[] arr;
     int[][] arr;   // Two dimensional array
-        ```
+     ```
 ### Initialization
 The ```new``` operator is used to initialize an array.
 * E.g.
