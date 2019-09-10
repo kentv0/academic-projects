@@ -49,7 +49,9 @@ Identifiers
 
 Type Casting
 ------
-* Type Casting is assigning a value of one type to a variable of another type and are classified into two types:
+Type Casting is assigning a value of one type to a variable of another type and are classified into two types:
+1. Widening Casting (Implicit)
+2. Narrowing Casting (Explicitly done)
 ### 1. Widening Casting (Implicit)
 ```byte``` -> ```short``` -> ```int``` -> ```long``` -> ```float``` -> ```double```
 * Widening (or Automatic type conversion) take place when...
@@ -89,6 +91,47 @@ Type Casting
     Double value: 100.04
     Long value: 100
     Int value: 100
+    ```
+Variables
+------
+Any information stored is stored in an address of the computer. Instead of remembering the complex address of the stored information, the address can be named. The naming of an address is known as a variable. Variable is the name of memory location. Java defines mainly three kind of variables:
+1. Instance Variables
+2. Static Variables
+3. Local Variables
+### 1. Instance Variables
+Instance variables are variables that are declare inside a class but outside any method,constructor or block. Instance variable are also variable of object commonly known as field or property. They are referred as object variable. Each object has its own copy of each variable and thus, it doesn't effect the instance variable if one object changes the value of the variable.
+* E.g.
+    ```java
+    class Customer {
+
+        String name;    // Instance variable of Customer class
+        int id;         // Instance variable of Customer class
+    }
+    ```
+### 2. Static Variables
+Static are class variables declared with static keyword. Static variables are initialized only once. Static variables are also used in declaring constant along with final keyword.
+* E.g.
+    ```java
+    class Customer {
+
+        String name;
+        int id;
+        static int storeCode = 1234;    // Each object of Customer class will share the storeCode property.
+    ```
+* Static Variable are also known as class variable.
+* Static means to remain constant and will be constant for all the instances created for that class.
+* Static Variable need not to be called from an object, instead is called by ```classname.staticVariableName```
+* A Static Variable can never be defined inside a method, e.g. it can never be a local variable.
+### 3. Local Variables
+Local Variables are declared in a method, constructor, or block. Local Variables are initialized when the method, constructor, or block is started and is destroyed once it is ended. Local Variable reside in stack. Access modifiers are not used for Local Variable.
+* E.g.
+    ```java
+    int getPrice(String item) {
+    
+        int price;  // Local variable
+        price = item * 5;
+        return price;
+    }
     ```
 Object Oriented
 ------
