@@ -13,7 +13,9 @@ Basic Java
 ======
 Data Types
 ------
-Data types specify size and the type of values that can be stored in an identifier. Java classifies data types into two categories:
+Data types specify size and the type of values that can be stored in an identifier
+
+Java classifies data types into two categories:
 1. Primitive Data Type
 2. Non-Primitive Data Type
 ### 1. Primitive Data Type
@@ -49,7 +51,7 @@ Identifiers
 
 Type Casting
 ------
-
+* Assigning a value of one type to a variable of another type is known as Type Casting.
 
 Object Oriented
 ------
