@@ -309,11 +309,11 @@ Java provides a rich set of operators environment. Java operators can be divided
     | Operator | Description                                                              | Example                              |
     |:--------:|:-------------------------------------------------------------------------|:-------------------------------------|
     | ```=```  | Assign right operand to left operand                                     | ```a = b```                          |
-    | ```+=``` | Assign left operand to the sum of left operand and right operand         | ```a += b``` OR ```a = a + b``` |
-    | ```-=``` | Assign left operand to the difference of right operand from left operand | ```a -= b``` OR ```a = b - a``` |
-    | ```*=``` | Assign left operand to the product of left operand with right operand    | ```a *= b``` OR ```a = a * b``` |
-    | ```/=``` | Assign left operand to the quotient of left operand with right operand   | ```a /= b``` OR ```a = a / b``` |
-    | ```%=``` | Assign left operand to the modulo of left operand with right operand     | ```a %= b``` OR ```a = a % b``` |
+    | ```+=``` | Assign left operand to the sum of left operand and right operand         | ```a += b``` or ```a = a + b``` |
+    | ```-=``` | Assign left operand to the difference of right operand from left operand | ```a -= b``` or ```a = b - a``` |
+    | ```*=``` | Assign left operand to the product of left operand with right operand    | ```a *= b``` or ```a = a * b``` |
+    | ```/=``` | Assign left operand to the quotient of left operand with right operand   | ```a /= b``` or ```a = a / b``` |
+    | ```%=``` | Assign left operand to the modulo of left operand with right operand     | ```a %= b``` or ```a = a % b``` |
 ### Conditional Operators
 Also known as the ternary operator and used to evaluate ```Boolean``` expression
 * E.g.
@@ -327,16 +327,97 @@ Also known as the ternary operator and used to evaluate ```Boolean``` expression
 ### Misc Operators
 * There are few other operators supported by the Java programming language.
 
-Object Oriented
+Object-Oriented Programming (OOP) Concepts
+======
+Styles of Programming Languages
 ------
-* ### Styles of Programming Languages
-    * Unstructured
-    * Structured
-    * Object-Oriented
-* ### Objects and Classes
-* ### Method Overloading
+Programming languages can be classified into 3 primary types:
+1. Unstructured Programming Languages
+2. Structured Programming Languages
+3. Object-Oriented Programming Languages
+### 1. Unstructured Programming Languages
+The earliest of all programming language were unstructured programming language. It has a sequentially flow of control. Code is repeated through out the program.
+* E.g. a very elementary code of banking application in unstructured Programming language will have two variables of one account number and another for account balance
+    ```java
+    int accountNumber = 20;
+    int accountBalance = 100;
+    
+    accountBalance = accountBalance + 100;
+    
+    printf(“Account Number = %d, accountNumber);
+    printf(“Account Balance = %d, accountBalance);
+    
+    accountBalance = accountBalance - 50;
+    
+    printf(“Account Number = %d, accountNumber);
+    printf(“Account Balance = %d, accountBalance);
+    
+    accountBalance = accountBalance - 10;
+    
+    printf(“Account Number = %d, accountNumber);
+    printf(“Account Balance = %d, accountBalance);
+    ```
+    Any deposit or withdraw operation requires continuously repeating lines of code
+### 2. Structured Programming Languages
+Structured programming language has a non-sequentially flow of control. Repeated lines on the code were put into structures such as functions or methods. Use of functions allows for re-use of code.
+* E.g.
+    ```java
+    void showData() {
+        printf(“Account Number = %d, accountNumber);
+        printf(“Account Balance = %d, accountBalance);
+    }
+    ```
+    ```java
+    int accountNumber = 20;
+    int accountBalance = 100;
+    
+    accountBalance = accountBalance + 100;
+    
+    showData();
+    
+    accountBalance = accountBalance - 50;
+    
+    showData();
+    
+    accountBalance = accountBalance - 10;
+    
+    showData();
+    ```
+    Whenever needed, a simple call to the function is made.
+### 3. Object-Oriented Programming Languages
+Combines data & action together.
+Objects and Classes
+------
+Method Overloading
+------
+Constructor in Java
+------
+this keyword
+------
+Garbage Collection
+------
+Java Modifiers
+------
+Inheritance
+------
+Aggregation
+------
+Method Overriding
+------
+Runtime Polymorphism
+------
+instanceof Operator
+------
+Command line Argument
+------
+Package
+------
+Abstract Class
+------
+Interface
+------
+Nested Classes
+------
 
 Advanced Topics
-------
-
-
+======
