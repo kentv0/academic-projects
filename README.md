@@ -309,11 +309,11 @@ Java provides a rich set of operators environment. Java operators can be divided
     | Operator | Description                                                              | Example                              |
     |:--------:|:-------------------------------------------------------------------------|:-------------------------------------|
     | ```=```  | Assign right operand to left operand                                     | ```a = b```                          |
-    | ```+=``` | Assign left operand to the sum of left operand and right operand         | ```a += b``` same as ```a = a + b``` |
-    | ```-=``` | Assign left operand to the difference of right operand from left operand | ```a -= b``` same as ```a = b - a``` |
-    | ```*=``` | Assign left operand to the product of left operand with right operand    | ```a *= b``` same as ```a = a * b``` |
-    | ```/=``` | Assign left operand to the quotient of left operand with right operand   | ```a /= b``` same as ```a = a / b``` |
-    | ```%=``` | Assign left operand to the modulo of left operand with right operand     | ```a %= b``` same as ```a = a % b``` |
+    | ```+=``` | Assign left operand to the sum of left operand and right operand         | ```a += b``` OR ```a = a + b``` |
+    | ```-=``` | Assign left operand to the difference of right operand from left operand | ```a -= b``` OR ```a = b - a``` |
+    | ```*=``` | Assign left operand to the product of left operand with right operand    | ```a *= b``` OR ```a = a * b``` |
+    | ```/=``` | Assign left operand to the quotient of left operand with right operand   | ```a /= b``` OR ```a = a / b``` |
+    | ```%=``` | Assign left operand to the modulo of left operand with right operand     | ```a %= b``` OR ```a = a % b``` |
 ### Conditional Operators
 Also known as the ternary operator and used to evaluate ```Boolean``` expression
 * E.g.
