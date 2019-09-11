@@ -413,11 +413,12 @@ Objects and Classes
 ------
 * The complete Java programming language builds on classes and objects. It uses real world approach to solve a problem.
 * In Java everything is encapsulated under classes. Class is the core of the Java programming language. Class can be defined as a template/blueprint that describe the behaviors/states of a particular entity. A class defines a new data type and once defined, this new data type can be used to create object of that data type. Object is an instance of class.
-
 ### Declaration
 * A class is declared using the ```class``` keyword.
 * A class contain both the data and the code that operate on that data. The data or variables defined within a class are called **instance variables** and the code that operates on this data are known as **methods**. Thus, the instance variables and methods are known as class members. A class is also known as a user defined data type.
-
+### Initialization
+* Creating an instance of a class using the keyword ```new``` or by reflection, e.g. ```class.forName()```
+* Can also be initialized when a static method of a ```Class``` is invoked or a static field of a ```Class``` is assigned.
 ### Rules
 * A class can only be declared with the ```public``` access modifier or default (none).
 * A class can either be declared as ```abstract```, ```final```, or concrete (none).
@@ -427,6 +428,26 @@ Objects and Classes
 * Class variables and methods are declared within a set of curly braces ```{}```.
 * Each ```.java``` source file may only contain one ```public class```, but may contain any number of default visible classes.
 * The name of the source file must match the name of the ```public class```.
+### Example
+```java
+class Customer {
+    String name;
+    int id;
+    int age;
+}
+```
+When a reference is made to a particular customer with its property then it becomes an object, physical existence of ```Customer()``` class.
+```java
+Customer cust = new Customer();
+```
+The keyword ```new``` creates a physical copy of the object and assign it to the variable ```cust```, which is now an instance/object of the ```Customer()``` class.
+The keyword ```new``` dynamically allocates memory for an object in the heap area.
+
+| Stack      | Heap               |
+|:-----------|:-------------------|
+| ```cust``` | ```name = null;``` |
+|            | ```id = 0;```      |
+|            | ```age = 0;```     |
 
 Method Overloading
 ------
