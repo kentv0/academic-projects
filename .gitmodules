@@ -7,3 +7,6 @@
 [submodule "maze-puzzle-game"]
 	path = maze-puzzle-game
 	url = https://github.com/kentv0/maze-puzzle-game.git
+[submodule "phone-book"]
+	path = phone-book
+	url = https://github.com/kentv0/phone-book.git
