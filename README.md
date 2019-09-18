@@ -2,7 +2,7 @@ Java Projects
 ======
 Introduction
 ------
-This repository contain the submodules of the Java projects I worked on throughout my career so far. Each submodule contain a project directed from its respective repository and a guide on how to set it up.
+This repository contain the submodules of the Java projects I worked on throughout my career so far. Each submodule contains a project directed from its respective repository and a guide on how to set it up.
 
 Disclaimer
 ------
