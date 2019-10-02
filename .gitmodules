@@ -1,0 +1,12 @@
+[submodule "circular-array"]
+	path = circular-array
+	url = https://github.com/kentv0/circular-array.git
+[submodule "doubly-linked-list"]
+	path = doubly-linked-list
+	url = https://github.com/kentv0/doubly-linked-list.git
+[submodule "maze-puzzle-game"]
+	path = maze-puzzle-game
+	url = https://github.com/kentv0/maze-puzzle-game.git
+[submodule "phone-book"]
+	path = phone-book
+	url = https://github.com/kentv0/phone-book.git
